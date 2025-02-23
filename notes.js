@@ -16,15 +16,17 @@
 // url : http://localhost:3000/sign-up
 // link: https://ui.shadcn.com/
 
+
+
 // 7.        npx shadcn@latest init
-// New York
-// Neutral
-// use --force
+                  // New York
+                  // Neutral
+                  // use --force
 
-//8.        npx shadcn@latest add form
-// Use --force
+//8.         npx shadcn@latest add form
+                  // Use --force
 
-//9.        npx shadcn@latest add input
+//9.             npx shadcn@latest add input
 
 // ----------------------------------------------------------------------------
 
@@ -46,8 +48,9 @@
 
 // ------------------------------------------
 
-// 11.          npx shadcn@latest add alert-dialog
+// 11.          npm install node-appwrite
+// 12.          npx shadcn@latest add alert-dialog
 // use --force
 
-//              12. npx shadcn@latest add input-otp
+//13.           npx shadcn@latest add input-otp
 //              Use --force

@@ -21,7 +21,7 @@ import { Button } from "@/components/ui/button";
 import { verifySecret, sendEmailOTP } from "@/lib/actions/user.actions";
 import { useRouter } from "next/navigation";
 
-const OtpModal = ({
+const OTPModal = ({
   accountId,
   email,
 }: {
@@ -37,12 +37,8 @@ const OtpModal = ({
     e.preventDefault();
     setIsLoading(true);
 
-    console.log({ accountId, password });
-
     try {
       const sessionId = await verifySecret({ accountId, password });
-
-      console.log({ sessionId });
 
       if (sessionId) router.push("/");
     } catch (error) {
@@ -125,4 +121,4 @@ const OtpModal = ({
   );
 };
 
-export default OtpModal;
+export default OTPModal;
