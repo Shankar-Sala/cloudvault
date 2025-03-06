@@ -54,3 +54,21 @@
 
 //13.           npx shadcn@latest add input-otp
 //              Use --force
+
+// ------------------------------------------c
+// Atharva Rane
+//Layout, Sidebar, Nav
+
+// Install ShadCn sheet:- 
+// Link - npx shadcn@latest add sheet 
+// (press enter for  Use --force if asked else enter y)
+
+// In terminal main repo write:  npx shadcn@latest add separator
+// (press enter for  Use --force if asked else enter y)
+
+// install react-dropzone: npm install --save react-dropzone
+
+// install toast: 1. npx shadcn@latest add sonner 
+             //   2. npm install sonner
+
+
